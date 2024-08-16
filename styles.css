@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+header a:hover {
+    opacity: 0.10;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #eee;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+header .btn-contato button:hover {
+    opacity: 0.9;
+}
+
+main {
+    padding-top: 90px;
+    text-align: center;
+}
+
+section .introducao {
+    gap: 50px;
+}
+
+.introducao h1 {
+    font-size: 42px;
+}
+
+.introducao .txt-site p {
+    margin: 40px 0;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+section .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #eee;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+section .btn-contato button:hover {
+    transform: scale(1.05);
+}
+
+.portifolio h2 {
+    text-transform: uppercase;
+    font-size: 42px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.projetos {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 40px;
+    padding-left: 70px;
+}
+
+.projetos img {
+    width: 360px;
+    height: 261px;
+    cursor: pointer;
+}
+
+.projetos img:hover {
+    transform: scaleX(1.03);
+    box-shadow: 5px 5px 5px #8c00ff;
+}
+
+.projetos p {
+    max-width: 450px;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+}
+
+footer .contato {
+    display: flex;
+    padding: 50px 35%;
+    gap: 140px;
+}
+
+
+
+footer h2 {
+    text-transform: uppercase;
+    font-size: 42px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+footer .contato img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+footer .contato img:hover {
+    opacity: 0.10;
+}
